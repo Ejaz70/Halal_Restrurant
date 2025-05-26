@@ -1,0 +1,144 @@
+.news-blog-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: #10b981;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 32px;
+  color: #111827;
+  margin-bottom: 40px;
+}
+
+.blog-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-align: left;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-box {
+  position: relative;
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.image-name {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.meta {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.meta-underline {
+  position: relative;
+  display: inline-flex;
+  gap: 14.73px;
+  padding-bottom: 2px;
+  width: 325px;
+  padding-top: 30.19;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.span_2 {
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 164.706% */
+  text-transform: capitalize;
+}
+
+.meta-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #10b981;
+}
+
+.blog-title {
+  margin-bottom: 26px;
+  margin-top: 29px;
+}
+.blog-title a {
+  font-weight: 600;
+  color: #10b981;
+  width: 354px;
+  color: #10b981;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 36.4px;
+}
+
+.blog-description {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
